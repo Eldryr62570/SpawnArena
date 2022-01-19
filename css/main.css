@@ -1,0 +1,135 @@
+.bandtitre {
+    position: relative;
+    text-align: center;
+    color: rgba(218, 218, 16, 0.788);
+  }
+  .texte_titre {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+    font-family: cursive;
+  }
+  .fondu {
+    display: flex;
+    height: 600px;
+    width: 30%;
+  }
+  
+  body
+      {
+          background-size: cover;
+          background-image: url(../img/imagedefond.jpg);
+          background-repeat: no-repeat;
+          Border: 0;
+          padding: 0;
+          min-height: 100%;
+          overflow-x: hidden;
+          Margin: 50px;
+          line-height: 35px;
+      }
+  
+  @-webkit-keyframes Fondu3imgInOut{
+    0%, 27%, 100%
+    {
+      opacity:1;
+    }
+    33%, 93%
+    {
+      opacity:0;
+    }
+  }
+  @-moz-keyframes Fondu3imgInOut{
+    0%, 27%, 100%
+    {
+      opacity:1;
+    }
+    33%, 93%
+    {
+      opacity:0;
+    }
+  }
+  @-o-keyframes Fondu3imgInOut{
+    0%, 27%, 100%
+    {
+      opacity:1;
+    }
+    33%, 93%
+    {
+      opacity:0;
+    }
+  }
+  @keyframes Fondu3imgInOut{
+    0%, 27%, 100%
+    {
+      opacity:1;
+    }
+    33%, 93%
+    {
+      opacity:0;
+    }
+  }
+  
+  #Fondu3img{
+    position:relative;
+    height:1280px;
+    width:1920px;
+    margin:0 auto;
+    margin-top: 10px;
+  }
+  #Fondu3img img{
+    position:absolute;
+    left:0;
+  }
+  
+  #Fondu3img img{
+    -webkit-animation-name: Fondu3imgInOut;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 15s;
+  
+    -moz-animation-name: Fondu3imgInOut;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-duration: 15s;
+  
+    -o-animation-name: Fondu3imgInOut;
+    -o-animation-timing-function: ease-in-out;
+    -o-animation-iteration-count: infinite;
+    -o-animation-duration: 15s;
+  
+    animation-name: Fondu3imgInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+  }
+  #Fondu3img img:nth-of-type(1){
+    -webkit-animation-delay: 10s;
+    -moz-animation-delay: 10s;
+    -o-animation-delay: 10s;
+    animation-delay: 10s;
+  }
+  #Fondu3img img:nth-of-type(2){
+    -webkit-animation-delay: 5s;
+    -moz-animation-delay: 5s;
+    -o-animation-delay: 5s;
+    animation-delay: 5s;
+  }
+  #Fondu3img img:nth-of-type(3){
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    animation-delay: 0s;
+  }
+  #score table,td {
+    border: 1px solid #333;
+  }
+  #score thead,tfoot {
+    background-color: #333;
+    color: #fff;
+  }
+  #score {
+    text-align: center;
+    background-color: rgba(218, 218, 16, 0.788);
+  }
