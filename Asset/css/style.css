@@ -38,6 +38,22 @@ body {
     font-size: 4em;
     font-family: cursive;
 }
+/*NavBar*/
+nav a{
+    border:3px solid rgba(218, 218, 16, 0.788);
+    font-weight:bold;
+    color:rgba(218, 218, 16, 0.788);
+    margin-left: 100px;
+    margin-right: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+nav a:hover{
+    font-weight:bold;
+    font-size:1.3em;
+}
+
+
 
 /*Card*/
 .container .card .icon {
