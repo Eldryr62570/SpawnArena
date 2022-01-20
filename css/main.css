@@ -15,16 +15,16 @@
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2.5em;
+    font-size: 4em;
     font-family: cursive;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     .texte_titre {
       position: absolute;
       top: 65%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 1em;
+      font-size: 2em;
       font-family: cursive;
     }
   }
