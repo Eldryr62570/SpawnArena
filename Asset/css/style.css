@@ -287,7 +287,7 @@ nav a:hover{
     width: 100%;
     justify-content: space-around;
     align-self: center;
-    height: 750px;
+    height: 40vh;
     
 
 }
@@ -536,3 +536,71 @@ img.resizemodal {
     margin-top: 10px;
     width: fit-content;
 }
+/*formualire ticket*/
+.myform{
+    display:flex;
+    justify-content: center;
+}
+.myform > div{
+    background-color : rgb(226, 226, 226);
+    box-shadow:5px 5px 28px 0px rgba(0,0,0,0.87);
+    height:40vh;
+    width:30vw;
+    
+}
+.bodyseparator{
+    height: 10vh;
+}
+form{
+    padding:10px;
+}
+
+
+fieldset {
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+   
+  legend {
+    padding: 0px 3px;
+    font-weight: bold;
+    font-variant: small-caps;
+  }
+   
+  label {
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+    
+  }
+   
+  em {
+    font-weight: bold;
+    font-style: normal;
+    color: #f00;
+  }
+   
+  input:focus {
+    background: #eaeaea;
+  }
+   
+  input, textarea {
+    width: 249px;
+  }
+   
+  textarea {
+    height: 100px;
+  }
+   
+  select {
+    width: 254px;
+  }
+   
+  input[type=checkbox] {
+    width: 10px;
+  }
+   
+  input[type=submit] {
+    width: 150px;
+    padding: 10px;
+  }
