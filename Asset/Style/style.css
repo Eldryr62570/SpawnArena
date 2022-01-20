@@ -106,25 +106,16 @@ body {
 }
 
 .container .card .slide.slide2 {
-
     position: relative;
-
     display: flex;
-
     justify-content: center;
-
     align-items: center;
-
     padding: 20px;
-
     box-sizing: border-box;
-
     transition: .8s;
-
     transform: translateY(-100px);
-
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-
+    box-shadow: 0 20px 40px rgb(0 0 0);
+    background-color: rgba(128, 128, 128, 0.774);
 }
 
 .container .card:hover .slide.slide2 {
@@ -290,12 +281,13 @@ body {
 @media (max-width: 700px) {
     .contacte {
         display: flex;
-        width: fit-content;
+        width: center;
         justify-content: center;
         align-self: center;
         height: 80vh;
         padding: 10px;
         flex-direction: column;
+        
 
     }
 
@@ -304,6 +296,13 @@ body {
 
 .Gbutton {
     width: fit-content;
+    
+}
+@media (max-width:700px){
+    .Gbutton {
+        width: fit-content;
+        align-self:center;
+    }
 }
 
 /*Footer*/
@@ -417,7 +416,7 @@ a:hover {
     width: 50%;
 }
 
-/*Modal2*/
+/*Modaux*/
 
 .wrapper {
 
