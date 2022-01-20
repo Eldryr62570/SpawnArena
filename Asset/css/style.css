@@ -52,7 +52,11 @@ nav a:hover{
     font-weight:bold;
     font-size:1.3em;
 }
-
+.navdiv{
+    height:10vh;
+    display:flex;
+    justify-content: center;
+}
 
 
 /*Card*/
