@@ -27,6 +27,7 @@ body {
 .imgtitre {
     width: 100%;
     height: auto;
+    margin-bottom:10px;
 }
 
 .texte_titre {
@@ -40,19 +41,12 @@ body {
 
 /*Card*/
 .container .card .icon {
-
     position: absolute;
-
     top: 0;
-
     left: 0;
-
     width: 100%;
-
     height: 100%;
-
-    background: #2c73df;
-
+    background: rgb(217 159 30);
 }
 
 .container .card .icon .fa {
@@ -437,6 +431,11 @@ a:hover {
     text-transform: uppercase;
     color: #585858;
     font-family: 'Roboto', sans-serif;
+    transform: 2s;
+}
+.wrapper a:hover{
+    background-color: #2f016e;
+    color:white;
 }
 
 .modal {
@@ -462,13 +461,23 @@ a:hover {
 .modal__content {
     border-radius: 4px;
     position: relative;
-    width: 500px;
+    width: fit-content;
+    height:fit-content;
     max-width: 90%;
     background: #fff;
     padding: 1em 2em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:5px
+    
 }
 
-
+.modal__content > div{
+    display:flex;
+    padding:5px;
+    
+}
 
 .modal__close {
     position: absolute;
@@ -476,4 +485,34 @@ a:hover {
     right: 10px;
     color: #585858;
     text-decoration: none;
+}
+.resizemodal{
+    width: 90%;
+    height:auto;
+}
+img.resizemodal {
+    padding: 5px;
+}
+.groupimage{
+    width: fit-content;
+}
+.titlenimg >h3{
+    justify-content: center;
+    display: flex;
+}
+
+/*Card dans le modal*/
+.card_equipe{
+    background: linear-gradient(180deg, rgba(1,0,12,1) 0%, rgba(103,98,98,1) 50%, rgba(188,188,188,1) 100%);
+    height:30vh;
+    width: 10vw;
+    box-shadow: 5px 17px 50px -8px rgba(0,0,0,0.67);
+    margin:5px;
+    display: flex;
+    justify-content: center;
+}
+.card_equipe > i {
+    color:white;
+    margin-top: 10px;
+    width: fit-content;
 }
