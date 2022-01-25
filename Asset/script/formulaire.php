@@ -2,6 +2,14 @@
 <div class="myform">
     <div>
         <form action="mailer.php" class="formconfig" method="post">
+        <?php 
+        //Message de succés d'envoi du message
+        if(isset($_SESSION['mysession'])){
+                 if($_SESSION['mysession']==true){
+                    echo '<div class="red">Message envoyé au support !</div>';
+                }   
+            }
+         ?>
             <label for="nom">Nom <em>*</em></label>
             <input id="nom" placeholder="Olivier Serre" name="name" autofocus="" required=""><br>
             <label for="telephone">Portable<em>*</em></label>
@@ -16,6 +24,9 @@
             <label for="comments">Ticket :</label>
             <textarea id="comments" name="message"></textarea>
             <p><input type="submit" value="Soumettre"></p>
+            
+
         </form>
     </div>
     </div>
+    

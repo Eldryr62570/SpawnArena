@@ -975,4 +975,6 @@ fieldset {
     width: 150px;
     padding: 10px;
   }
-
+.red{
+    color:red;
+}

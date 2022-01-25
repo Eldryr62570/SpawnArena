@@ -1,3 +1,8 @@
+<?php 
+    session_start();
+    
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,7 +22,11 @@
         include("./Asset/script/formulaire.php");
         include("./Asset/script/footer.php");
         include("./Asset/script/modaux.php");
-        
+    ?>
+    <?php
+        if(isset($_SESSION)){
+            $_SESSION = array();
+        }
     ?>
     
 
