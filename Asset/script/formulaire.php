@@ -6,7 +6,7 @@
         //Message de succés d'envoi du message
         if(isset($_SESSION['mysession'])){
                  if($_SESSION['mysession']==true){
-                    echo '<div class="red">Message envoyé au support !</div>';
+                    echo '<div class="valid">Message envoyé au support !</div>';
                 }   
             }
          ?>
