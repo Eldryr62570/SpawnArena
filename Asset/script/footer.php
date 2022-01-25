@@ -1,5 +1,5 @@
-<?php 
-    echo' <footer class="main_footer">
+
+ <footer class="main_footer">
     <div class="text_footer">
         <ul>
             <li><a href="connexion.html">Connexion</a></li>
@@ -42,5 +42,4 @@
         </div>
 
     </div>
-</footer>';
-?>
+</footer>

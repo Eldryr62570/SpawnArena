@@ -12,12 +12,14 @@
 
 <body>
     <?php 
-    include("./Asset/script/navbar.php");
-    include("./Asset/script/card.php");
-    include("./Asset/script/formulaire.php");
-    include("./Asset/script/footer.php");
-    include("./Asset/script/modaux.php");
+        include("./Asset/script/navbar.php");
+        include("./Asset/script/card.php");
+        include("./Asset/script/formulaire.php");
+        include("./Asset/script/footer.php");
+        include("./Asset/script/modaux.php");
+        
     ?>
+    
 
 
 

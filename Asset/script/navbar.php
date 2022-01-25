@@ -1,5 +1,4 @@
-<?php 
-    echo '<header class="bandtitre">
+<header class="bandtitre">
     <img src="Asset/img/Titre.jpg" class="imgtitre">
     <div class="texte_titre">Spawn Arena</div>
 </header>
@@ -12,6 +11,5 @@
         <a href="contact.html">Nous contacter</a>
     </nav>
 </div>
-<div></div>';
+<div></div>
 
-?>

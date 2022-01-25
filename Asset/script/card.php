@@ -1,5 +1,4 @@
-<?php 
-    echo'
+
 <section class="contacte">
     <div class="Gbutton">
         <!--Card 1-->
@@ -66,5 +65,4 @@
 
 
     </div>
-</section>';
-?>
+</section>

@@ -1,5 +1,4 @@
-<?php 
-echo' <!--Mon modal 1-->
+<!--Mon modal 1-->
 <div id="demo-modal1" class="modal">
     <div class="modal__content">
         <h1>Nos Jeux :</h1>
@@ -58,5 +57,3 @@ echo' <!--Mon modal 1-->
         <a href="#" class="modal__close">&times;</a>
     </div>
 </div>
-';
-?>
