@@ -25,6 +25,7 @@
     ?>
     <?php
         if(isset($_SESSION)){
+            //On vide la session pour que le message ne s'afficher qu'une fois
             $_SESSION = array();
         }
     ?>

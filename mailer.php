@@ -7,7 +7,10 @@
     $headers[]= 'Content-type: text/html; charset=iso-8859-1';
     mail($to, $subject, $message, implode("\r\n", $headers));
 
-    
-    $_SESSION["mysession"] = true;
+    //On met true dans la session pour verifier si on a bien envoyé le mail
+    if(isset($_SESSION)){
+        $_SESSION["mysession"] = true;
+    }
+        
     header("Location:presentation.php");
 ?>
